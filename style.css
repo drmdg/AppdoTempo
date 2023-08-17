@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'norse';
+    src: url('./Norse-Bold.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'norse';
+    background-color: #2f2f2f;
+    color: #ffcb74;
+}
+
+header{
+    padding: 2rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.p1{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
